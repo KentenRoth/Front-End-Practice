@@ -10,32 +10,64 @@ html {
 }
 
 body {
+	background: #b9b9b9;
+	display: flex;
 	font-family: 'EB Garamond', serif;
 	font-size: 1.7rem;
+	min-height: 100vh;
 }
 
 .container {
+	margin: auto;
 	max-width: 1000px;
+	padding: 50px;
+	align-items: center;
+	justify-content: center;
 }
 
 .box {
+	background: #f4f4f4;
+	border-radius: 10px;
+	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+	max-width: 600px;
 }
 
 .heading {
 	grid-area: 1 / 1 / 2 / 3;
+	padding: 30px;
 }
+
+.sub-heading {
+	color: #00ff6f;
+}
+
 .price {
-	grid-area: 2 / 1 / 3 / 2;
+	background: #006a9e;
+	border-bottom-left-radius: 10px;
+	border: 2px solid #004b70;
+	border-right: none;
+	color: white;
+	grid-area: 2 / 1;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+button {
+	background: #00ff6f;
 }
 .about {
-	grid-area: 2 / 2 / 3 / 3;
+	background: #00acff;
+	border: 2px solid #004b70;
+	border-left: none;
+	border-bottom-right-radius: 10px;
+	grid-area: 2 / 2;
 }
 
 .price-box p {
-	display: inline;
+	display: inline-block;
 }
