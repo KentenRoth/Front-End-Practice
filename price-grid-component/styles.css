@@ -43,11 +43,13 @@ body {
 }
 
 .heading h2 {
+	padding-bottom: 15px;
 	color: #2ab2af;
 }
 
 .sub-heading {
 	color: #c0df34;
+	padding-bottom: 15px;
 }
 
 .price {
@@ -71,10 +73,11 @@ body {
 }
 
 .price-faded-text {
-	font-size: 16px;
-	padding: 5px;
-	color: #98a6bd;
-	vertical-align: middle;
+	line-height: 100%;
+	font-size: 13px;
+	vertical-align: 42%;
+	opacity: 60%;
+	padding: 3px;
 }
 
 .faded-text {
@@ -82,12 +85,20 @@ body {
 	color: #98a6bd;
 }
 
+.button-box {
+	padding: 20px 0px;
+}
+
 button {
 	background: #c0df34;
+	border: none;
+	border-radius: 5px;
+	box-shadow: -3px 3px 4px 3px rgba(0, 0, 0, 0.1);
+	color: white;
+	padding: 10px 80px;
 }
 .about {
-	background: #2ab2af;
-	filter: brightness(120%);
+	background: #2ab2afbf;
 	border-bottom-right-radius: 10px;
 	grid-area: 2 / 2;
 }
