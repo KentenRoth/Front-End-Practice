@@ -13,7 +13,7 @@ body {
 	background: #b9b9b9;
 	display: flex;
 	font-family: 'EB Garamond', serif;
-	font-size: 1.7rem;
+	font-size: 16px;
 	min-height: 100vh;
 }
 
@@ -42,32 +42,52 @@ body {
 	padding: 30px;
 }
 
+.heading h2 {
+	color: #2ab2af;
+}
+
 .sub-heading {
-	color: #00ff6f;
+	color: #c0df34;
 }
 
 .price {
-	background: #006a9e;
+	background: #2ab2af;
 	border-bottom-left-radius: 10px;
-	border: 2px solid #004b70;
-	border-right: none;
 	color: white;
 	grid-area: 2 / 1;
 	padding-top: 15px;
 	padding-left: 30px;
 }
 
-button {
-	background: #00ff6f;
-}
-.about {
-	background: #00acff;
-	border: 2px solid #004b70;
-	border-left: none;
-	border-bottom-right-radius: 10px;
-	grid-area: 2 / 2;
+.price-title {
+	font-size: 18px;
 }
 
-.price-box p {
-	display: inline-block;
+.price-text {
+	font-size: 25px;
+}
+.price-box {
+	padding: 4px 0px 8px 0px;
+}
+
+.price-faded-text {
+	font-size: 16px;
+	padding: 5px;
+	color: #98a6bd;
+	vertical-align: middle;
+}
+
+.faded-text {
+	padding: 5px 0px;
+	color: #98a6bd;
+}
+
+button {
+	background: #c0df34;
+}
+.about {
+	background: #2ab2af;
+	filter: brightness(120%);
+	border-bottom-right-radius: 10px;
+	grid-area: 2 / 2;
 }
