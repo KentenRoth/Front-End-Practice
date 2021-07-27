@@ -12,7 +12,7 @@ html {
 body {
 	background: #b9b9b9;
 	display: flex;
-	font-family: 'EB Garamond', serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 16px;
 	min-height: 100vh;
 }
@@ -31,7 +31,6 @@ body {
 	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	max-width: 600px;
@@ -43,13 +42,14 @@ body {
 }
 
 .heading h2 {
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	color: #2ab2af;
+	font-weight: 700;
 }
 
 .sub-heading {
 	color: #c0df34;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 }
 
 .price {
@@ -61,12 +61,15 @@ body {
 	padding-left: 30px;
 }
 
-.price-title {
+.title {
 	font-size: 18px;
+	padding: 20px 0px 15px 0px;
+	font-weight: 700;
 }
 
 .price-text {
 	font-size: 25px;
+	font-weight: 700;
 }
 .price-box {
 	padding: 4px 0px 8px 0px;
@@ -75,9 +78,14 @@ body {
 .price-faded-text {
 	line-height: 100%;
 	font-size: 13px;
-	vertical-align: 42%;
+	vertical-align: 30%;
 	opacity: 60%;
 	padding: 3px;
+	font-weight: 400;
+}
+
+.price-sub-heading {
+	opacity: 80%;
 }
 
 .faded-text {
@@ -86,7 +94,7 @@ body {
 }
 
 .button-box {
-	padding: 20px 0px;
+	padding: 30px 0px 30px 0px;
 }
 
 button {
@@ -95,10 +103,24 @@ button {
 	border-radius: 5px;
 	box-shadow: -3px 3px 4px 3px rgba(0, 0, 0, 0.1);
 	color: white;
-	padding: 10px 80px;
+	font-weight: 700;
+	padding: 13px 80px;
 }
 .about {
 	background: #2ab2afbf;
 	border-bottom-right-radius: 10px;
+	color: white;
+	padding-top: 15px;
+	padding-left: 30px;
 	grid-area: 2 / 2;
+}
+
+.about ul {
+	list-style-type: none;
+}
+
+.about ul li {
+	font-size: 14px;
+	opacity: 60%;
+	line-height: 1.3em;
 }
