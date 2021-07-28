@@ -20,7 +20,7 @@ body {
 .container {
 	margin: auto;
 	max-width: 1000px;
-	padding: 50px;
+	padding: 20px;
 	align-items: center;
 	justify-content: center;
 }
@@ -123,4 +123,24 @@ button {
 	font-size: 14px;
 	opacity: 60%;
 	line-height: 1.3em;
+}
+
+@media only screen and (max-width: 375px) {
+	.box {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, auto);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+	}
+	.heading {
+		grid-area: 1/1;
+	}
+	.price {
+		grid-area: 2/1;
+		border-bottom-left-radius: 0px;
+	}
+	.about {
+		grid-area: 3/1;
+	}
 }
