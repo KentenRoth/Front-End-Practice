@@ -140,7 +140,18 @@ button {
 		grid-area: 2/1;
 		border-bottom-left-radius: 0px;
 	}
+
+	.button-box {
+		margin-right: 30px;
+	}
+
+	button {
+		width: 100%;
+	}
+
 	.about {
 		grid-area: 3/1;
+		padding-bottom: 20px;
+		border-bottom-left-radius: 10px;
 	}
 }
