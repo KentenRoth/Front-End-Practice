@@ -1,3 +1,43 @@
+body {
+	background: hsl(0, 0%, 98%);
+	font-family: Poppins;
+	font-size: 15px;
+}
+
+.page-content {
+	padding: 50px;
+}
+
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+.header-box {
+	text-align: center;
+	width: 600px;
+	margin: auto;
+}
+
+.headings {
+	color: hsl(234, 12%, 34%);
+}
+
+.top-heading {
+	font-weight: 200;
+}
+
+.bottom-heading {
+	margin-top: -20px;
+	font-weight: 600;
+}
+
+.sub-heading {
+	color: hsl(229, 6%, 66%);
+	margin: auto;
+	padding: 0px 30px;
+}
+
 .project-box {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -17,4 +57,7 @@
 }
 .karma {
 	grid-area: 3 / 2 / 5 / 3;
+}
+
+@media only screen and (max-width: 375px) {
 }
