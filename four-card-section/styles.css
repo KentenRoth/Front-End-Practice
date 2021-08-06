@@ -47,13 +47,6 @@ body {
 	grid-row-gap: 25px;
 }
 
-.under-card {
-	height: 5px;
-	width: 100%;
-	border: solid red 1px;
-	margin: 10px;
-}
-
 .card {
 	background: hsl(0, 0%, 98%);
 	border-bottom-left-radius: 10px;
@@ -61,6 +54,7 @@ body {
 	box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.2);
 	padding: 5px 20px;
 	margin-top: 5px;
+	margin-bottom: -5px;
 	width: 280px;
 }
 
