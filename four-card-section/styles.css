@@ -46,6 +46,25 @@ body {
 	grid-row-gap: 0px;
 }
 
+.card {
+	border-radius: 10px;
+	box-shadow: 0 1px 10px 0px rgba(0, 0, 0, 0.2);
+	margin: 10px;
+	padding: 5px 20px;
+	width: 280px;
+}
+
+.image {
+	padding: 20px 0px;
+	text-align: right;
+}
+
+.light-text {
+	color: hsl(229, 6%, 66%);
+	font-size: 13px;
+	padding-right: 15px;
+}
+
 .team {
 	grid-area: 1 / 2 / 3 / 3;
 }
